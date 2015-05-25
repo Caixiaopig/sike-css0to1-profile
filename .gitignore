@@ -1,0 +1,77 @@
+# ----------------------------------------------------------------------------
+# Mac OS
+# https://github.com/github/gitignore/blob/master/Global/OSX.gitignore
+# ----------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# ----------------------------------------------------------------------------
+# Vim
+# https://github.com/github/gitignore/blob/master/Global/vim.gitignore
+# ----------------------------------------------------------------------------
+.*.s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# ----------------------------------------------------------------------------
+# Java / Scala / IntelliJ IDEA
+# (https://github.com/github/gitignore/blob/master/Java.gitignore)
+# ----------------------------------------------------------------------------
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.settings
+*.project
+*.idea
+*.swp
+
+# Maven
+target/
+
+out
+deploy.log
+
+*.class
+*.log
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# sbt specific
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot
+project/plugins/project/
+
+# IntelliJ
+# https://github.com/github/gitignore/blob/master/Global/IntelliJ.gitignore
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Gradle
+.gradle
+build/
+# Ignore Gradle GUI config
+gradle-app.setting
+
+
+# Log Files
+*.log
